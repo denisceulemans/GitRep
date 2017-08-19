@@ -1,0 +1,101 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import beans.Utilisateur;
+
+public class UtilisateurDAO extends DAO<Utilisateur> {
+	public UtilisateurDAO(Connection conn) {
+		super(conn);
+	}
+	
+	public boolean create(Utilisateur obj) 
+	{
+		try 
+		{
+			this.connect.createStatement(
+					ResultSet.TYPE_SCROLL_INSENSITIVE, 
+					ResultSet.CONCUR_READ_ONLY
+					).executeUpdate("INSERT INTO Utilisateur (nom_utilisateur,prenom_utilisateur,login,"
+							+ "mdp,email) VALUES ('" + obj.getNom() + "', '" + obj.getPrenom() 
+							+ "', '" + obj.getLogin() + "', '" + obj.getMotDePasse() + "', '" + obj.getEmail() + "')");
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+			return false;
+		}
+		return true;
+	}
+	
+	public boolean delete(Utilisateur obj) {
+		return false;
+	}
+	
+	public boolean update(Utilisateur obj) {
+		return false;
+	}
+	
+	public ArrayList<Utilisateur> select()
+	{
+		ArrayList<Utilisateur> listeUtilisateur = new ArrayList<Utilisateur>();
+		try
+		{
+			ResultSet result = this.connect.createStatement(
+					ResultSet.TYPE_SCROLL_INSENSITIVE,
+					ResultSet.CONCUR_READ_ONLY).executeQuery("select * from utilisateur");
+			while(result.next())
+		      {
+				 listeUtilisateur.add(new Utilisateur(result.getInt("id_utilisateur"),result.getString("nom_utilisateur"), result.getString("prenom_utilisateur"), 
+						  result.getString("login"), result.getString("mdp"), result.getString("email")));
+		      }
+			
+		}
+		catch(SQLException e){
+			e.printStackTrace();
+		}
+		
+		return listeUtilisateur;
+	}
+
+	public Utilisateur find(int id_Utilisateur)
+	{
+		Utilisateur utilisateur = null;
+		  
+		try{
+			ResultSet result = this.connect.createStatement(
+					ResultSet.TYPE_SCROLL_INSENSITIVE,
+					ResultSet.CONCUR_READ_ONLY).executeQuery("select * from utilisateur where id_utilisateur = " + id_Utilisateur + "");
+			if(result.next()){
+				utilisateur = new Utilisateur(result.getInt("id_utilisateur"),result.getString("nom_utilisateur"), result.getString("prenom_utilisateur"), 
+						  result.getString("login"), result.getString("mdp"), result.getString("email"));
+			}
+		}
+		catch(SQLException e){
+			e.printStackTrace();
+		}
+		
+		return utilisateur;
+	}
+	
+	public Utilisateur authentification(String login, String mdp)
+	{		
+		Utilisateur utilisateur = null;
+		  
+		try{
+			ResultSet result = this.connect.createStatement(
+					ResultSet.TYPE_SCROLL_INSENSITIVE,
+					ResultSet.CONCUR_READ_ONLY).executeQuery("select * from utilisateur where login = '" + login + "' and mdp = '"+ mdp +"'");
+			if(result.next()){
+				utilisateur = new Utilisateur(result.getInt("id_utilisateur"),result.getString("nom_utilisateur"), result.getString("prenom_utilisateur"), 
+						  result.getString("login"), result.getString("mdp"), result.getString("email"));
+			}
+		}
+		catch(SQLException e){
+			e.printStackTrace();
+		}
+		
+		return utilisateur;
+	}
+}
