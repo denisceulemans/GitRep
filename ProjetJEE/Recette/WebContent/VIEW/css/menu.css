@@ -1,0 +1,43 @@
+.menu
+{
+	height : 100px;
+	background-color:#D82121;
+	padding-top: 20px;
+}
+.navigation
+{
+	margin : auto;
+	width : 900px;
+	height: 90px;
+	background-color:#EEEEEE;
+	border : solid black 1px;
+}
+.table
+{
+	margin : auto;
+	width : 810px;
+	height: 81px;
+}
+.table td
+{
+	margin : auto;
+	width : 200px;
+	height : 64px;
+	text-align: center;
+}
+.table input
+{
+	padding : 4px 32px 4px 32px;
+	text-decoration:none;
+	border: 1px #D82121 solid;
+	
+	background-color:#EEEEEE;
+    color: #000000;
+}
+.table input:hover
+{
+	text-decoration: none;
+	
+    color: #EEEEEE;
+    background-color:#D82121;
+}

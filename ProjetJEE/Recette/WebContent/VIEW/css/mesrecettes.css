@@ -1,0 +1,40 @@
+h1
+{
+	text-decoration: underline;
+	font-weight: normal;
+}
+.mesrecettes
+{
+	margin-left:auto;
+	margin-right:auto;
+	width : 900px;
+	background-color:#EEEEEE;
+	padding-bottom: 20px;
+	text-align: center;
+	border : solid black 1px;
+}
+.tableRecette
+{
+	border-collapse: collapse;
+	margin-left : auto;
+	margin-right : auto;
+	width : 810px;
+}
+.tableRecette td
+{
+	border : solid #D82121 1px;
+	width : 202px;
+}
+.bouton 
+{
+	border: 1px #D82121 solid;
+	font-weight: normal;
+	
+	background-color:#EEEEEE;
+    color: #000000;
+}
+.bouton:hover
+{
+    color: #EEEEEE;
+    background-color:#D82121;
+}

@@ -1,0 +1,15 @@
+html, body 
+{
+	margin: 0;
+	padding: 0;
+ 	background-color: #EEEEEE;	
+}
+.page
+{
+	padding-bottom : 20px;
+	margin-left:auto;
+	margin-right:auto;
+	width : 1000px;
+	background-color:#D82121;
+	border : solid black 1px;
+}
