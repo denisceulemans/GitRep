@@ -1,0 +1,67 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ page import="java.util.*" %>
+<%@ page import="beans.*" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Recherche</title>
+<link type="text/css" rel="stylesheet" href="/Recette/VIEW/css/menu.css"/>
+<link type="text/css" rel="stylesheet" href="/Recette/VIEW/css/page.css"/>
+<link type="text/css" rel="stylesheet" href="/Recette/VIEW/css/recherche.css"/>
+</head>
+<body>
+	<div class="page">
+		<%@ include file="menu.jsp" %>
+		<div class="recherche">
+			<h1>Recherche</h1>
+			<form action="Recherche" name="formrecherche" method="post">
+			<input type="text" id="recherche" name="recherche" value="${recherche}" size="20" maxlength="20" />
+			 <select name="typerecherche" >
+			  <option value="nom">Nom</option>
+			  <option value="type">Type de recette</option>
+			  <option value="tempstotal">Temps total</option>
+			</select>
+			<input style="margin-bottom: 20px;" class="bouton" type="submit" name="rechercher" id="rechercher" value="Rechercher une recette"/>
+			<span class="erreur">${form.erreurs['recherche']}</span>
+			<%
+			ArrayList<Recette> rechercherecettes = (ArrayList<Recette>)request.getAttribute("rechercherecettes");
+			
+			if(rechercherecettes != null)
+			{
+				if(rechercherecettes.size()!=0)
+				{%>
+					<table class="tableRecette">
+					<tr>
+						<td>Nom</td>
+						<td>Type</td>
+						<td>Temps total</td>
+						<td>Selection</td>
+					</tr>
+					<%
+					for(int i=0;i<rechercherecettes.size();i++)
+					{
+					%>
+						<tr class="recette">
+							<td><%=rechercherecettes.get(i).getNom()%></td>
+							<td><%=rechercherecettes.get(i).getType()%></td>
+							<td><%=rechercherecettes.get(i).getTemps_total()%></td>
+							<td>
+								<input type="submit" value="Sélectionner" name="valider<%=i%>"/>
+							</td>
+						</tr>
+					<%}
+				}
+			}
+			else
+			{
+			%>
+			<p>Pas de recettes</p>
+			<%}%>
+			</table>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

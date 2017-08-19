@@ -1,0 +1,43 @@
+package servlets;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class ServletMenu extends HttpServlet
+{
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+	{
+		response.sendRedirect("/Recette/Connexion");
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	{
+		<td><input type="submit" name="accueil" id="accueil" value="Accueil"/></td>
+		<td><input type="submit" name="recherche" id="recherche" value="Recherche"/></td>
+		<td><input type="submit" name="mesrecettes" id="mesrecettes" value="Mes recettes"/></td>
+		<td><input type="submit" name="listerecettes" id="listerecettes" value="Liste des recettes"/></td>
+		if(request.getParameter("accueil") != null)
+		{
+			
+		}
+		else if(request.getParameter("recherche") != null)
+		{
+			
+		}
+		else if(request.getParameter("mesrecettes") != null)
+		{
+			
+		}
+		else if(request.getParameter("listerecettes") != null)
+		{
+			
+		}
+	}
+
+}

@@ -1,0 +1,488 @@
+
+janv. 12, 2017 22:47:46.41 NEW SESSION
+janv. 12, 2017 22:47:48.07 [11044:14100:0112/224745:ERROR:navigation_entry_screenshot_manager.cc(141)] Invalid entry with unique id: 11
+
+août 06, 2017 12:53:35.42 NEW SESSION
+août 06, 2017 12:53:35.43 console.error: CustomizableUI: 
+août 06, 2017 12:53:35.44   Key element with id 'key_webide' for widget 'webide-button' not found!
+
+août 17, 2017 15:52:43.84 NEW SESSION
+août 17, 2017 15:52:43.88 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 17, 2017 15:52:44.42 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 17, 2017 15:52:44.45 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 17, 2017 15:52:44.90 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 17, 2017 15:52:44.93 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 17, 2017 15:53:17.37 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 17, 2017 15:53:44.87 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 17, 2017 15:53:44.96 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 17, 2017 15:54:23.41 
+août 17, 2017 15:54:23.41 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+août 17, 2017 15:54:23.42 
+août 17, 2017 15:54:23.43 
+août 17, 2017 15:54:23.43 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+août 17, 2017 15:54:23.44 
+août 17, 2017 15:54:23.45 
+août 17, 2017 15:54:23.45 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+août 17, 2017 15:54:23.46 
+août 17, 2017 16:09:40.39 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 17, 2017 16:09:43.05 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 17, 2017 16:10:10.43 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 17, 2017 16:10:10.48 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+
+août 18, 2017 09:56:36.40 NEW SESSION
+août 18, 2017 09:56:36.41 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 09:56:38.86 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 09:57:07.22 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 09:57:07.28 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 11:07:54.27 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 11:07:56.68 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 11:08:25.63 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 11:08:25.69 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 11:15:49.11 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 11:15:52.06 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 11:16:21.22 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 11:16:21.26 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 12:13:40.91 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 12:13:44.32 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 12:14:10.79 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 12:14:10.82 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 12:15:40.48 [Child 13516] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+août 18, 2017 12:15:40.49 [Child 13516] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+août 18, 2017 12:48:14.23 1503053294238	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+août 18, 2017 12:48:14.33 1503053294337	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+août 18, 2017 12:48:14.35 1503053294358	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+août 18, 2017 12:48:14.44 1503053294443	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+août 18, 2017 12:48:14.50 1503053294509	addons.update-checker	WARN	Update manifest for followonsearch@mozilla.com did not contain an updates property
+août 18, 2017 12:48:14.53 1503053294537	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+août 18, 2017 12:51:45.74 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 12:51:47.81 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 12:52:19.29 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 12:52:19.32 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:10:36.98 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:10:39.49 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:11:06.95 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:11:06.99 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:12:36.54 [Child 14376] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+août 18, 2017 13:23:05.53 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:23:08.26 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:23:36.12 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:23:36.15 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:24:25.16 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:24:52.56 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:24:52.58 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:32:29.51 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:32:31.89 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:33:01.74 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:33:01.78 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:54:42.36 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:54:44.84 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:55:12.32 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:55:12.34 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:56:41.93 [Child 760] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+août 18, 2017 13:59:38.57 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 13:59:43.55 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 14:00:10.20 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 14:00:10.23 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 14:00:44.68 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 14:01:12.37 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 14:01:12.39 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 14:13:43.72 console.error: CustomizableUI: 
+août 18, 2017 14:13:43.72   Key element with id 'key_webide' for widget 'webide-button' not found!
+août 18, 2017 14:13:44.14 console.error: CustomizableUI: 
+août 18, 2017 14:13:44.15   Key element with id 'key_webide' for widget 'webide-button' not found!
+août 18, 2017 14:23:53.30 console.error: CustomizableUI: 
+août 18, 2017 14:23:53.30   Key element with id 'key_webide' for widget 'webide-button' not found!
+août 18, 2017 14:23:59.01 console.error: CustomizableUI: 
+août 18, 2017 14:23:59.01   Key element with id 'key_webide' for widget 'webide-button' not found!
+août 18, 2017 14:24:40.59 console.error: CustomizableUI: 
+août 18, 2017 14:24:40.61   Key element with id 'key_webide' for widget 'webide-button' not found!
+août 18, 2017 15:23:59.15 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 15:23:59.46 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 15:23:59.77 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 15:24:28.48 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 15:24:28.52 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 15:25:00.97 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 15:46:20.29 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 15:46:20.72 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 15:46:21.03 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 15:46:50.24 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 15:46:50.30 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 15:47:22.38 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 15:52:45.66 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 15:52:45.94 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 15:52:46.15 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 15:53:15.50 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 15:53:15.53 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 15:53:17.91 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:01:25.71 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:01:25.87 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:01:26.12 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:01:57.75 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:28:59.70 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:29:00.28 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:29:00.58 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:29:31.80 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:30:12.32 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:30:12.40 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:30:44.44 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:42:48.62 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:42:48.85 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:42:49.17 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:43:20.95 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:45:24.47 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:45:24.66 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:45:24.97 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:45:55.91 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:46:40.12 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:46:40.21 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:47:12.69 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:54:51.48 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:54:52.03 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:54:52.27 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 16:55:23.40 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 17:03:26.66 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 17:03:26.86 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 17:03:27.09 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 17:03:58.97 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 17:17:38.18 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 17:17:38.50 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 17:17:38.73 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 17:18:12.53 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 17:59:28.68 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 17:59:28.93 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 17:59:29.18 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:00:00.82 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:01:28.25 [Child 9536] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+août 18, 2017 18:01:28.25 [Child 9536] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+août 18, 2017 18:08:04.03 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:08:04.21 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:08:04.46 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:08:36.36 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:21:57.88 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:21:58.14 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:21:58.46 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:22:29.52 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:23:56.72 [Child 14352] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+août 18, 2017 18:30:34.99 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:30:35.18 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:30:35.41 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:31:07.26 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:35:41.46 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:35:41.69 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:35:42.01 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:36:17.28 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:37:41.25 [Child 9132] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+août 18, 2017 18:37:41.26 [Child 9132] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+août 18, 2017 18:40:06.81 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:40:07.00 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:40:07.24 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:40:39.20 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 18:42:06.37 [Child 11024] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+août 18, 2017 19:06:31.91 console.error: 
+août 18, 2017 19:06:31.91   Message: [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js :: getComputedStylePropertyValue :: line 329"  data: no]
+août 18, 2017 19:06:31.92   Stack:
+août 18, 2017 19:06:31.93     getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:31.93 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:31.94 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:31.94 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:31.95 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:31.95 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:31.96 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:31.97 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:31.97 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:31.98 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:31.98 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:31.99 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:31.99 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 19:06:32.00 
+août 18, 2017 19:06:32.00 getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:32.01 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:32.02 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:32.02 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:32.03 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:32.03 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:32.04 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:32.05 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:32.05 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:32.06 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:32.06 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:32.07 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:32.08 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 19:06:32.15 console.error: 
+août 18, 2017 19:06:32.15   Message: [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js :: getComputedStylePropertyValue :: line 329"  data: no]
+août 18, 2017 19:06:32.16   Stack:
+août 18, 2017 19:06:32.16     getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:32.17 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:32.18 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:32.18 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:32.19 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:32.19 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:32.20 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:32.21 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:32.21 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:32.22 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:32.23 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:32.23 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:32.24 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 19:06:32.25 
+août 18, 2017 19:06:32.25 getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:32.26 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:32.27 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:32.27 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:32.28 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:32.29 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:32.29 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:32.30 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:32.30 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:32.31 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:32.31 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:32.32 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:32.32 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 19:06:37.16 console.error: 
+août 18, 2017 19:06:37.17   Message: [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js :: getComputedStylePropertyValue :: line 329"  data: no]
+août 18, 2017 19:06:37.17   Stack:
+août 18, 2017 19:06:37.18     getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:37.19 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:37.19 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:37.20 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:37.21 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:37.21 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:37.22 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:37.23 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:37.24 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:37.24 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:37.25 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:37.26 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:37.26 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 19:06:37.27 
+août 18, 2017 19:06:37.27 getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:37.28 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:37.29 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:37.29 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:37.30 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:37.30 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:37.31 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:37.32 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:37.32 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:37.33 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:37.34 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:37.34 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:37.35 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 19:06:37.36 console.error: 
+août 18, 2017 19:06:37.36   Message: [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js :: getComputedStylePropertyValue :: line 329"  data: no]
+août 18, 2017 19:06:37.36   Stack:
+août 18, 2017 19:06:37.37     getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:37.38 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:37.38 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:37.39 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:37.39 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:37.40 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:37.40 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:37.41 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:37.41 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:37.42 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:37.42 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:37.43 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:37.43 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 19:06:37.44 
+août 18, 2017 19:06:37.44 getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:37.45 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:37.46 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:37.46 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:37.47 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:37.47 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:37.48 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:37.49 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:37.49 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:37.50 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:37.50 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:37.51 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:37.51 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 19:06:37.52 console.error: 
+août 18, 2017 19:06:37.52   Message: [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js :: getComputedStylePropertyValue :: line 329"  data: no]
+août 18, 2017 19:06:37.53   Stack:
+août 18, 2017 19:06:37.54     getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:37.54 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:37.55 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:37.56 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:37.57 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:37.57 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:37.58 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:37.58 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:37.59 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:37.59 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:37.60 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:37.60 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:37.61 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 19:06:37.61 
+août 18, 2017 19:06:37.62 getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:37.62 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:37.63 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:37.63 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:37.64 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:37.65 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:37.65 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:37.66 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:37.66 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:37.67 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:37.68 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:37.68 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:37.69 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 19:06:39.25 console.error: 
+août 18, 2017 19:06:39.26   Message: [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js :: getComputedStylePropertyValue :: line 329"  data: no]
+août 18, 2017 19:06:39.26   Stack:
+août 18, 2017 19:06:39.27     getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:39.28 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:39.28 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:39.29 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:39.30 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:39.30 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:39.31 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:39.31 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:39.32 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:39.32 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:39.33 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:39.33 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:39.34 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 19:06:39.34 
+août 18, 2017 19:06:39.35 getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:39.35 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:39.36 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:39.36 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:39.37 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:39.37 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:39.38 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:39.39 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:39.40 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:39.40 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:39.41 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:39.41 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:39.42 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 19:06:39.42 console.error: 
+août 18, 2017 19:06:39.43   Message: [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js :: getComputedStylePropertyValue :: line 329"  data: no]
+août 18, 2017 19:06:39.44   Stack:
+août 18, 2017 19:06:39.44     getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:39.45 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:39.45 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:39.46 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:39.46 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:39.47 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:39.47 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:39.48 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:39.48 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:39.49 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:39.49 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:39.50 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:39.50 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 19:06:39.51 
+août 18, 2017 19:06:39.51 getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:39.52 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:39.52 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:39.53 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:39.53 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:39.54 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:39.54 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:39.55 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:39.55 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:39.56 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:39.56 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:39.57 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:39.57 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 19:06:39.58 console.error: 
+août 18, 2017 19:06:39.58   Message: [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js :: getComputedStylePropertyValue :: line 329"  data: no]
+août 18, 2017 19:06:39.59   Stack:
+août 18, 2017 19:06:39.60     getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:39.60 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:39.61 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:39.61 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:39.62 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:39.62 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:39.63 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:39.63 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:39.64 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:39.64 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:39.65 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:39.65 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:39.65 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 19:06:39.66 
+août 18, 2017 19:06:39.66 getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:39.67 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:39.67 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:39.68 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:39.69 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:39.69 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:39.70 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:39.70 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:39.71 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:39.72 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:39.72 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:39.72 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:39.73 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 19:06:39.73 console.error: 
+août 18, 2017 19:06:39.74   Message: [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js :: getComputedStylePropertyValue :: line 329"  data: no]
+août 18, 2017 19:06:39.74   Stack:
+août 18, 2017 19:06:39.75     getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:39.75 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:39.76 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:39.76 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:39.77 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:39.77 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:39.78 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:39.78 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:39.79 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:39.79 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:39.80 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:39.80 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:39.81 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 19:06:39.81 
+août 18, 2017 19:06:39.82 getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:39.82 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:39.83 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:39.83 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:39.83 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:39.84 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:39.84 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:39.85 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:39.85 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:39.86 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:39.86 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:39.87 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:39.87 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 19:06:55.74 console.error: 
+août 18, 2017 19:06:55.74   Message: [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js :: getComputedStylePropertyValue :: line 329"  data: no]
+août 18, 2017 19:06:55.75   Stack:
+août 18, 2017 19:06:55.76     getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:55.76 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:55.77 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:55.78 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:55.78 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:55.79 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:55.79 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:55.80 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:55.81 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:55.81 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:55.82 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:55.83 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:55.84 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 19:06:55.84 
+août 18, 2017 19:06:55.85 getComputedStylePropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:329:28
+août 18, 2017 19:06:55.86 getPropertyValue@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:513:39
+août 18, 2017 19:06:55.86 moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/utils/markup.js:599:27
+août 18, 2017 19:06:55.87 _moveInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:714:5
+août 18, 2017 19:06:55.88 _updateInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:695:5
+août 18, 2017 19:06:55.88 _showInfobar@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:374:5
+août 18, 2017 19:06:55.89 _update@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:329:9
+août 18, 2017 19:06:55.90 _show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/box-model.js:289:17
+août 18, 2017 19:06:55.90 show@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters/auto-refresh.js:112:17
+août 18, 2017 19:06:55.91 showBoxModel@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/actors/highlighters.js:190:19
+août 18, 2017 19:06:55.92 handler@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/protocol.js:1082:19
+août 18, 2017 19:06:55.92 onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1769:15
+août 18, 2017 19:06:55.93 receiveMessage@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:761:7
+août 18, 2017 20:54:52.35 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 20:54:52.68 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 20:54:52.90 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 20:55:24.43 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 20:59:36.46 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 20:59:36.65 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 20:59:36.86 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+août 18, 2017 21:00:08.72 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.

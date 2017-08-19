@@ -1,0 +1,316 @@
+package forms;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
+import beans.Etape;
+import beans.Ingredient;
+import beans.Note;
+import beans.Recette;
+import beans.Utilisateur;
+import dao.DriverACCESS;
+import dao.EtapeDAO;
+import dao.IngredientDAO;
+import dao.RecetteDAO;
+
+public class AjouterRecetteForm 
+{
+	//code de base form
+    private Map<String, String> erreurs = new HashMap<String, String>();
+    public Map<String, String> getErreurs() 
+    {
+        return erreurs;
+    }
+    private void setErreur(String champ, String message) 
+    {
+        erreurs.put(champ, message);
+    }
+    
+    private static String getVal(HttpServletRequest request, String val) 
+    {
+        String valeur = request.getParameter(val);
+        if (valeur == null || valeur.trim().length() == 0) 
+        {
+            return null;
+        } 
+        else 
+        {
+            return valeur;
+        }
+    }
+    //--------------------------------------------------------------------------
+
+	public Recette ajouterRecette(HttpServletRequest request)
+	{
+		//gestion de la recette
+		String nom = getVal(request, "nom");
+		String avis = getVal(request, "avis");
+		String type = getVal(request, "type");
+		String temps_total = getVal(request, "temps");
+		Utilisateur user = (Utilisateur) request.getSession().getAttribute("sessionUtilisateur");
+		
+		Recette recette = new Recette();
+		
+		//nom
+		try 
+        {
+            validNom(nom);
+        } 
+        catch (Exception e) 
+        {
+            setErreur("nom", e.getMessage());
+        }
+		
+		//avis
+		try 
+        {
+            validAvis(avis);
+        } 
+        catch (Exception e) 
+        {
+            setErreur("avis", e.getMessage());
+        }
+				
+		//type
+		try 
+        {
+            validType(type);
+        } 
+        catch (Exception e) 
+        {
+            setErreur("type", e.getMessage());
+        }
+				
+		//temps total
+		try 
+        {
+            validTemps(temps_total);
+        } 
+        catch (Exception e) 
+        {
+            setErreur("temps", e.getMessage());
+        }
+		
+		//utilisateur
+		try 
+        {
+            validUtilisateur(user);
+        } 
+        catch (Exception e) 
+        {
+            setErreur("utilisateur", e.getMessage());
+        }
+			
+		//set recette
+		recette.setAvis(avis);
+		recette.setNom(nom);
+		recette.setTemps_total(temps_total);
+		recette.setType(type);
+		recette.setUser(user);
+		
+		//si pas d'erreurs à ce stade la, continuer
+		if(erreurs.isEmpty())
+		{	
+			//gestion des étapes
+			ArrayList<Etape> listeEtape = lireEtape(request);
+			
+			//gestion des ingrédients
+			ArrayList<Ingredient> listeIngredient = lireIngredient(request);
+			
+			//si toujours pas d'erreurs, create la recette, les etapes et les ingrédients
+			if(erreurs.isEmpty())
+			{
+				RecetteDAO recetteDao = new RecetteDAO(DriverACCESS.getInstance());
+				recetteDao.create(recette);
+				
+				for(int k=0;k<listeEtape.size();k++)
+				{
+					EtapeDAO etapeDao = new EtapeDAO(DriverACCESS.getInstance());
+					etapeDao.create(listeEtape.get(k));
+				}
+				for(int k=0;k<listeEtape.size();k++)
+				{
+					IngredientDAO ingredientDao = new IngredientDAO(DriverACCESS.getInstance());
+					ingredientDao.create(listeIngredient.get(k));
+				}
+			}
+		}
+		
+		return recette;
+	}
+	private ArrayList<Ingredient> lireIngredient(HttpServletRequest request)
+	{
+		ArrayList<Ingredient> listeIngredient = new ArrayList<Ingredient>();
+		int j=0;
+		while(request.getParameter("ingredient"+j)!=null)
+		{
+			Ingredient ingredient = new Ingredient(request.getParameter("ingredient"+j),null);
+			//ingrédient
+			try
+			{
+				validIngredient(ingredient,j);
+			}
+			catch(Exception e)
+			{
+				setErreur("ingredient"+j, e.getMessage());
+			}
+			listeIngredient.add(ingredient);
+			
+			j++;
+		}
+		return listeIngredient;
+	}
+	private ArrayList<Etape> lireEtape(HttpServletRequest request)
+	{
+		ArrayList<Etape> listeEtape = new ArrayList<Etape>();
+		int i=0;
+		while(request.getParameter("etape"+i)!=null)
+		{
+			Etape etape = new Etape(i+1,request.getParameter("etape"+i),null);
+			//étape
+			try
+			{
+				validEtape(etape,i);
+			}
+			catch(Exception e)
+			{
+				setErreur("Etape"+i, e.getMessage());
+			}
+			listeEtape.add(etape);
+			
+			i++;
+		}
+		return listeEtape;
+	}
+	public ArrayList<Ingredient> ajouterIngredient(HttpServletRequest request)
+	{
+		ArrayList<Ingredient> listeIngredient = lireIngredient(request);
+		
+		Ingredient ingredient = new Ingredient(getVal(request, "ingredient"),null);
+		
+		try
+		{
+			validIngredient(ingredient);
+		}
+		catch(Exception e)
+		{
+			setErreur("ingredient", e.getMessage());
+		}
+		
+		if(erreurs.isEmpty())
+		{
+			
+		}
+		
+	}
+	public Etape ajouterEtape(HttpServletRequest request)
+	{
+		
+	}
+	//---------------------------------------------------------------------------------------
+	//nom
+    private void validNom(String nom) throws Exception 
+    {
+        if (nom == null) 
+        {
+            throw new Exception("Nom manquant");
+        }
+    }
+    //avis
+    private void validAvis(String avis) throws Exception 
+    {
+        if (avis == null) 
+        {
+            throw new Exception("Avis manquant");
+        }
+    }
+    //type
+    private void validType(String type) throws Exception 
+    {
+        if (type == null) 
+        {
+            throw new Exception("Type manquant");
+        }
+    }
+    //temps
+    private void validTemps(String temps) throws Exception 
+    {
+        if (temps == null) 
+        {
+            throw new Exception("Temps manquant");
+        }
+    }
+    //utilisateur
+    private void validUtilisateur(Utilisateur utilisateur) throws Exception 
+    {
+        if (utilisateur == null) 
+        {
+            throw new Exception("Utilisateur manquant");
+        }
+    }
+    
+    //-----------------------------------------------------------------------------
+    //étape
+    private void validEtape(Etape etape,int i) throws Exception 
+    {
+        if (etape == null) 
+        {
+            throw new Exception("Etape "+i+" manquant");
+        }
+        else
+        {
+        	if(etape.getExplication() == null)
+        	{
+        		throw new Exception("Explication de l'étape "+i+" manquante");
+        	}
+        }
+    }
+    private void validEtape(Etape etape) throws Exception
+    {
+
+        if (etape == null) 
+        {
+            throw new Exception("Etape à ajouter manquant");
+        }
+        else
+        {
+        	if(etape.getExplication() == null)
+        	{
+        		throw new Exception("Explication de l'étape à ajouter manquante");
+        	}
+        }
+    }
+    //ingrédient
+    private void validIngredient(Ingredient ingredient,int i) throws Exception 
+    {
+        if (ingredient == null) 
+        {
+            throw new Exception("Ingredient "+i+" manquant");
+        }
+        else
+        {
+        	if(ingredient.getDescription() == null)
+        	{
+        		throw new Exception("Description de l'ingrédient "+i+" manquante");
+        	}
+        }
+    }
+    private void validIngredient(Ingredient ingredient) throws Exception
+    {
+    	if (ingredient == null) 
+        {
+            throw new Exception("Ingredient à aujouter manquant");
+        }
+        else
+        {
+        	if(ingredient.getDescription() == null)
+        	{
+        		throw new Exception("Description de l'ingrédient à ajouter manquante");
+        	}
+        }
+    }
+}

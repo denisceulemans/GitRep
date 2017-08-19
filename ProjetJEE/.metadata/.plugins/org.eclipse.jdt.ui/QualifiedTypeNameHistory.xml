@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="beans.Ingredient"/>
+<fullyQualifiedTypeName name="forms.RecetteForm"/>
+<fullyQualifiedTypeName name="com.sun.faces.el.ELUtils.Scope"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="beans.Recette"/>
+<fullyQualifiedTypeName name="forms.RechercheForm"/>
+<fullyQualifiedTypeName name="dao.UtilisateurDAO"/>
+<fullyQualifiedTypeName name="dao.EtapeDAO"/>
+<fullyQualifiedTypeName name="dao.IngredientDAO"/>
+<fullyQualifiedTypeName name="forms.FaireNoteForm"/>
+<fullyQualifiedTypeName name="beans.Note"/>
+<fullyQualifiedTypeName name="dao.RecetteDAO"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="forms.AjouterRecetteForm"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.sql.CallableStatement"/>
+</qualifiedTypeNameHistroy>

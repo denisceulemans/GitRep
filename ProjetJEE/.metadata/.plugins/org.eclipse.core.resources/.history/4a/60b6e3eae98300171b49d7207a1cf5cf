@@ -1,0 +1,20 @@
+<script type="text/javascript">
+function Menu(targetJsp)
+{
+   document.formMenu.action = targetJsp;
+}
+</script>
+<div class="menu">
+	<form name="formMenu" action="Menu" method="POST">
+		<div class="navigation" >
+			<table class="table">
+				<tr>
+					<td><input type="submit" name="accueil" id="accueil" value="Accueil" onclick="Menu('Accueil');"/></td>
+					<td><input type="submit" name="recherche" id="recherche" value="Recherche" onclick="Menu('Recherche');"/></td>
+					<td><input type="submit" name="mesrecettes" id="mesrecettes" value="Mes recettes" onclick="Menu('MesRecettes');"/></td>
+					<td><input type="submit" name="listerecettes" id="listerecettes" value="Liste des recettes" onclick="Menu('ListeRecettes');"/></td>
+				</tr>
+			</table>
+		</div>
+	</form>
+</div>

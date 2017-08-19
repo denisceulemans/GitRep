@@ -1,0 +1,154 @@
+package forms;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+
+import beans.Utilisateur;
+import dao.DAO;
+import dao.DriverACCESS;
+import dao.UtilisateurDAO;
+
+public final class InscriptionForm 
+{
+    
+	//code de base form
+    private Map<String, String> erreurs = new HashMap<String, String>();
+    public Map<String, String> getErreurs() 
+    {
+        return erreurs;
+    }
+    private void setErreur(String champ, String message) 
+    {
+        erreurs.put(champ, message);
+    }
+    
+    private static String getVal(HttpServletRequest request, String val) 
+    {
+        String valeur = request.getParameter(val);
+        if (valeur == null || valeur.trim().length() == 0) 
+        {
+            return null;
+        } 
+        else 
+        {
+            return valeur;
+        }
+    }
+    //--------------------------------------------------------------------------
+    
+    public Utilisateur inscrireUtilisateur(HttpServletRequest request) 
+    {
+    	String nom = getVal(request, "nom");
+    	String prenom = getVal(request, "prenom");;
+    	String login = getVal(request, "login");
+        String motDePasse = getVal(request, "motdepasse");
+        String confirmation = getVal(request, "confirmation");
+        String email = getVal(request, "email");
+
+        Utilisateur utilisateur = new Utilisateur();
+        
+        //nom
+        try 
+        {
+            validNom(nom);
+        } 
+        catch (Exception e) 
+        {
+            setErreur("nom", e.getMessage());
+        }
+        utilisateur.setNom(nom);
+        
+        //prenom
+        try 
+        {
+            validPrenom(prenom);
+        } 
+        catch (Exception e) 
+        {
+            setErreur("prenom", e.getMessage());
+        }
+        utilisateur.setPrenom(prenom);
+        
+        try {
+            validationLogin(login);
+        } 
+        catch (Exception e) {
+            setErreur("login", e.getMessage());
+        }
+        utilisateur.setLogin(login);
+
+        try {
+            validationMotsDePasse(motDePasse, confirmation);
+        }
+        catch (Exception e) {
+            setErreur("motdepasse", e.getMessage());
+            setErreur("confirmation", null);
+        }
+        utilisateur.setMotDePasse(motDePasse);
+        
+        try {
+            validationEmail(email);
+        } 
+        catch (Exception e) {
+            setErreur("email", e.getMessage());
+        }
+        utilisateur.setEmail(email);
+
+        if (erreurs.isEmpty()) {
+        	DAO<Utilisateur> UtilisateurDao = new UtilisateurDAO(DriverACCESS.getInstance());
+            UtilisateurDao.create(utilisateur);
+        }
+        
+        return utilisateur;
+    }
+    
+    private void validationNom(String nom) throws Exception {
+        if (nom == null) {
+            throw new Exception("Merci de saisir votre nom");
+        }
+    }
+    
+    private void validationPrenom(String prenom) throws Exception {
+        if (prenom == null) {
+            throw new Exception("Merci de saisir votre prénom");
+        }
+    }
+    
+    private void validationEmail(String email) throws Exception {
+        if (email != null) {
+            if (!email.matches("([^.@]+)(\\.[^.@]+)*@([^.@]+\\.)+([^.@]+)")) {
+                throw new Exception("Merci de saisir une adresse mail valide.");
+            }
+        } 
+        else {
+            throw new Exception("Merci de saisir une adresse mail.");
+        }
+    }
+
+    private void validationMotsDePasse(String motDePasse, String confirmation) throws Exception {
+        if (motDePasse != null && confirmation != null) {
+            if (!motDePasse.equals(confirmation)) {
+                throw new Exception("Les mots de passe entrés sont différents, merci de les saisir à nouveau.");
+            } 
+            else if (motDePasse.length() < 6) {
+                throw new Exception("Les mots de passe doivent contenir au moins 6 caractères.");
+            }
+        } 
+        else {
+            throw new Exception("Merci de saisir et confirmer votre mot de passe.");
+        }
+    }
+
+    private void validationLogin(String login) throws Exception {
+    	if (login != null) {
+            if (login.length() < 5) {
+                throw new Exception("Le login doit contenir au moins 5 caractères.");
+            }
+        } 
+    	else {
+            throw new Exception("Merci de saisir votre login.");
+        }
+    }
+}

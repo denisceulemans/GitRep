@@ -1,0 +1,83 @@
+package servlets;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import beans.Recette;
+import beans.Utilisateur;
+import dao.DriverACCESS;
+import dao.RecetteDAO;
+
+public class ServletMesRecettes extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	{
+		HttpSession session = request.getSession();
+        if(session.getAttribute("sessionUtilisateur") == null)
+        {
+        	response.sendRedirect("/Recette/Connexion");
+        }
+        else
+        {
+        	RecetteDAO recetteDao = new RecetteDAO(DriverACCESS.getInstance());
+    		ArrayList<Recette> listeRecette = recetteDao.selectUtilisateur((Utilisateur)session.getAttribute("sessionUtilisateur"));
+    		
+    		request.setAttribute("mesrecettes", listeRecette);
+        	
+        	this.getServletContext().getRequestDispatcher("/VIEW/jsp/mesrecettes.jsp").forward(request, response);
+        }
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	{
+		if(request.getParameter("ajouter") != null)
+		{
+			response.sendRedirect("/Recette/AjouterRecette");
+		}
+		else
+		{
+			RecetteDAO recetteDao = new RecetteDAO(DriverACCESS.getInstance());
+    		ArrayList<Recette> listeRecette = recetteDao.selectUtilisateur((Utilisateur)session.getAttribute("sessionUtilisateur"));
+    		
+    		for(int i=0;i<listeRecette.size();i++)
+    		{
+    			
+    		}
+		}
+		
+		
+		i = 0;
+		while(i<listRecettePerso.size() && trouve == false)
+		{
+			if(request.getParameter("valider"+i) != null)
+			{
+				trouve = true;
+				
+				session.setAttribute("sessionRecette", listRecettePerso.get(i));
+				
+				request.setAttribute("recetteSelect", listRecettePerso.get(i));
+				this.getServletContext().getRequestDispatcher("/VIEW\\jsp\\consulterrecette.jsp").forward(request, response);
+			}
+			i++;
+		}
+		if(trouve == false)
+		{
+			if(request.getParameter("ajouter") != null){
+	        	this.getServletContext().getRequestDispatcher("/VIEW\\jsp\\ajouterrecette.jsp").forward(request, response);
+	        }
+			else
+			{
+				request.setAttribute("listerecettesperso", listRecettePerso);
+			    this.getServletContext().getRequestDispatcher("/VIEW\\jsp\\mesrecettes.jsp").forward(request, response);
+			}
+		}
+	}
+
+}

@@ -1,0 +1,89 @@
+package servlets;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import beans.Etape;
+import beans.Ingredient;
+import beans.Recette;
+import beans.Utilisateur;
+import dao.DriverACCESS;
+import dao.EtapeDAO;
+import dao.IngredientDAO;
+import dao.RecetteDAO;
+import forms.AjouterRecetteForm;
+
+
+public class ServletAjouterRecette extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	{
+		HttpSession session = request.getSession();
+        if(session.getAttribute("sessionUtilisateur") == null)
+        {
+        	response.sendRedirect("/Recette/Connexion");
+        }
+        else
+        {
+        	request.setAttribute("listeIngredient", new ArrayList<Ingredient>());
+        	request.setAttribute("listeEtape", new ArrayList<Etape>());
+        	this.getServletContext().getRequestDispatcher("/VIEW/jsp/ajouterrecette.jsp").forward(request, response);
+        }
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+	{
+		HttpSession session = request.getSession();
+        if(session.getAttribute("sessionUtilisateur") == null)
+        {
+        	response.sendRedirect("/Recette/Connexion");
+        }
+        else
+        {
+			if(request.getParameter("ajouterrecette") != null)
+			{
+	        	AjouterRecetteForm form = new AjouterRecetteForm();
+	        	form.ajouterRecette(request);
+	        	
+	        	if(form.getErreurs().isEmpty())
+	        	{
+	        		response.sendRedirect("/Recette/MesRecettes");
+	        	}
+	        	else
+	        	{
+	            	request.setAttribute("form", form);
+	            	System.out.println(form.getErreurs().toString());
+	                this.getServletContext().getRequestDispatcher("/VIEW/jsp/ajouterrecette.jsp").forward(request, response);
+	        	}
+			}
+			else if(request.getParameter("ajouteretape") != null)
+			{
+				AjouterRecetteForm form = new AjouterRecetteForm();
+	        	request.setAttribute("listeIngredient", form.lireIngredient(request));
+	        	request.setAttribute("listeEtape", form.ajouterEtape(request));
+	        	request.setAttribute("form", form);
+	        	this.getServletContext().getRequestDispatcher("/VIEW/jsp/ajouterrecette.jsp").forward(request, response);
+			}
+			else if(request.getParameter("ajouteringredient") != null)
+			{
+				AjouterRecetteForm form = new AjouterRecetteForm();
+	        	form.ajouterIngredient(request);
+	        	
+	        	request.setAttribute("form", form);
+	        	this.getServletContext().getRequestDispatcher("/VIEW/jsp/ajouterrecette.jsp").forward(request, response);
+			}
+			else
+			{
+
+			}
+        }
+	}
+
+}

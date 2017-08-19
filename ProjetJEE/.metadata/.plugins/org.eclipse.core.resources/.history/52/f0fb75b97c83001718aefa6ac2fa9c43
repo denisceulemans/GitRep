@@ -1,0 +1,119 @@
+package forms;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+
+import beans.Note;
+import beans.Utilisateur;
+import dao.DAO;
+import dao.DriverACCESS;
+import dao.NoteDAO;
+import dao.UtilisateurDAO;
+
+public final class ConnexionForm 
+{
+    private Map<String, String> erreurs = new HashMap<String, String>();
+    public Map<String, String> getErreurs() 
+    {
+        return erreurs;
+    }
+    private void setErreur(String champ, String message) 
+    {
+        erreurs.put(champ, message);
+    }
+    
+    private static String getVal(HttpServletRequest request, String val) 
+    {
+        String valeur = request.getParameter(val);
+        if (valeur == null || valeur.trim().length() == 0) 
+        {
+            return null;
+        } 
+        else 
+        {
+            return valeur;
+        }
+    }
+    //--------------------------------------------------------------------------
+
+    public Utilisateur connecterUtilisateur(HttpServletRequest request)
+    {
+    	Boolean erreur = false;
+        String login = getVal(request, "login");
+        String mdp = getVal(request, "mdp");
+
+        Utilisateur utilisateur = new Utilisateur();
+
+        //login
+        try 
+        {
+            validLogin(login);
+        } 
+        catch (Exception e) 
+        {
+            setErreur("login", e.getMessage());
+            erreur = true;
+        }
+
+        //mdp
+        try 
+        {
+            validMdp(mdp);
+        }
+        catch (Exception e) 
+        {
+            setErreur("mdp", e.getMessage());
+            erreur = true;
+        }
+        
+        //si pas d'erreur, recherche de l'utilisateur
+        if(!erreur)
+        {
+	        try {
+	        	utilisateur = rechercheUtilisateur(login, mdp);
+	        }
+	        catch (Exception e) {
+	            setErreur("connect", e.getMessage());
+	        }
+        }
+
+        return utilisateur;
+    }
+
+    //Valide le login saisi
+    private void validationLogin(String login) throws Exception {
+    	if (login != null) {
+            if (login.length() < 5) {
+                throw new Exception("Le login doit contenir au moins 5 caractères.");
+            }
+        } 
+    	else {
+            throw new Exception("Merci de saisir votre login.");
+        }
+    }
+
+    //Valide le mot de passe saisi
+    private void validationMotDePasse(String motDePasse) throws Exception {
+        if (motDePasse != null) {
+            if (motDePasse.length() < 6) {
+                throw new Exception("Le mot de passe doit contenir au moins 6 caractères.");
+            }
+        } 
+        else {
+            throw new Exception("Merci de saisir votre mot de passe.");
+        }
+    }
+    
+  //Recherche l'utilisateur dans la base de donnée
+    private Utilisateur rechercheUtilisateur(String login, String motDePasse) throws Exception 
+    {
+    	UtilisateurDAO utilisateurDao = new UtilisateurDAO(DriverACCESS.getInstance());
+    	Utilisateur utilisateur = utilisateurDao.authentification(login, motDePasse);
+    	if (utilisateur == null) {
+        	throw new Exception("Pseudo/mot de passe incorrect.");
+        }
+        return utilisateur;
+    }
+}
