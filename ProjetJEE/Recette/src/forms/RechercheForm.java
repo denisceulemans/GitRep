@@ -1,0 +1,79 @@
+package forms;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.servlet.http.HttpServletRequest;
+
+import beans.Note;
+import beans.Recette;
+import beans.Utilisateur;
+import dao.DriverACCESS;
+import dao.NoteDAO;
+import dao.RecetteDAO;
+
+public class RechercheForm 
+{
+	//code de base form
+    private Map<String, String> erreurs = new HashMap<String, String>();
+    public Map<String, String> getErreurs() 
+    {
+        return erreurs;
+    }
+    private void setErreur(String champ, String message) 
+    {
+        erreurs.put(champ, message);
+    }
+    
+    private static String getVal(HttpServletRequest request, String val) 
+    {
+        String valeur = request.getParameter(val);
+        if (valeur == null || valeur.trim().length() == 0) 
+        {
+            return null;
+        } 
+        else 
+        {
+            return valeur;
+        }
+    }
+    //--------------------------------------------------------------------------
+
+	public ArrayList<Recette> chercherRecette(HttpServletRequest request)
+	{
+		ArrayList<Recette> liste = new ArrayList<Recette>();
+		RecetteDAO recetteDao = new RecetteDAO(DriverACCESS.getInstance());
+		String recherche = getVal(request, "recherche");
+		String typeRecherche = getVal(request, "typerecherche");
+		
+		//recherche
+        try 
+        {
+            validRecherche(recherche);
+        } 
+        catch (Exception e) 
+        {
+            setErreur("recherche", e.getMessage());
+        }
+        //si pas d'erreur, rechercher
+		if(erreurs.isEmpty())
+		{
+			liste = recetteDao.selectRecherche(recherche, typeRecherche);
+		}
+		
+		return liste;
+	}
+	
+	//-----------------------------------------------------------------------------
+	
+	//recherche
+    private void validRecherche(String recherche) throws Exception 
+    {
+    	if (recherche == null) 
+    	{
+            throw new Exception("Recherche manquante");
+        }
+    }
+	
+}
